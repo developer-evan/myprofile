@@ -1,0 +1,126 @@
+/* .link {
+    display: inline;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+.home{
+    height: 620px;
+    background: aqua;
+} */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #dbf4fc;
+}
+
+.profile img {
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 30px;
+
+}
+
+.homeContent span {
+    background: #0084ff;
+    padding: 4px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.homeContent p {
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.hire button {
+    /* padding: 10px; */
+    height: 40px;
+    width: 100px;
+    background: #0084ff;
+    border: none;
+    color: #fff;
+    margin-right: 50px;
+    margin-left: 120px;
+    border-radius: 30px;
+    /* padding-bottom: 4px; */
+}
+
+.hire p {
+    /* margin-top: -1px; */
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    margin-left: 500px;
+}
+.social .lik{
+    color: #0084ff;
+    padding: 10px;
+    height: 50px;
+}
+
+.conte {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conted p {
+    margin-top: -15px;
+}
+
+.homeProj {
+    display: flex;
+    padding: 24px;
+    background: #0084ff;
+    color: #fff;
+    height: 250px;
+    padding-bottom: 8px;
+}
+
+.proj {
+    margin-top: 40px;
+}
+
+.proj button {
+    height: 35px;
+    padding: 10px;
+    background: #fff;
+    color: #0084ff;
+    border: none;
+}
+
+.listproj ul {
+    width: 300px;
+    background: transparent;
+}
+
+.listproj ul li {
+    display: flex;
+    justify-content: space-between;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid #fff;
+    padding-right: 10px;
+}
+@media only screen and (max-width:1024px) {
+.homeContent p {
+    text-align: center;
+    width: 350px;
+    margin-left: 20px;
+    padding: 8px;
+}
+.social{
+    margin-left: 50px;
+    
+}
+}

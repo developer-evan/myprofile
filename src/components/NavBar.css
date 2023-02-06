@@ -1,0 +1,51 @@
+.App {
+    text-align: center;
+  }
+  
+  .hero {
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+  }
+  .about {
+    height: 400px;
+    background-color: transparent;
+  }
+  .blog {
+    height: 600px;
+    background-color: #d8f3dc;
+  }
+  .contact {
+    height: 300px;
+    background-color: transparent;
+  }
+  .nav{
+    display: flex;
+    background: #0084ff;
+    padding: 4px;
+    margin-top: -5px; 
+    justify-content: space-around;
+  } 
+  .logo{
+    margin-top: 5px;
+    color: #fff;
+  
+  }
+  ul{
+    background: #0084ff;
+  }
+  .link {
+    text-decoration: none;
+    display: inline;
+    padding: 4px 4px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .link:hover{
+    color:#0084ff;
+    background: #fff;
+  }
+  

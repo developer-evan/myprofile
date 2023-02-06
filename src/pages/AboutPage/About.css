@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 24px;
+    background: #0c151f;
+    color: #ffff;
+}
+.ab {
+    padding: 24px;
+
+}
+
+h1 {
+    color: #0084ff;
+}
+
+.skills {
+    padding: 24px;
+    /* width: 1000px; */
+    background: transparent;
+
+}
+
+.skills ul {
+    background: transparent;
+    display: flex;
+    margin-left: 200px;
+    /* text-align: center; */
+    /* flex-direction: column; */
+}
+
+.skills ul li {
+    list-style: none;
+    font-size: xx-large;
+    padding: 30px;
+    font-weight: bold;
+    color: #0084ff;
+}
+
+@media only screen and (max-width:1024px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* bottom: 30px; */
+    }
+    .ab {
+        /* text-align: center;
+        margin-left: 40px;
+        margin-right: 40px; */
+        align-items: center;
+        justify-content: center;
+    }
+    .skills{
+        width: 300px;
+        /* padding: 15px; */
+
+    }
+    .skills ul li {
+        list-style: none;
+        font-size: xx-large;
+        padding: 10px;
+        font-weight: bold;
+        color: #0084ff;
+}
+}
