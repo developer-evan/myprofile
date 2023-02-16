@@ -59,11 +59,11 @@ function App() {
         </div>
       </div>
       <div ref={about} className="about">
-        {/* <h3>Services</h3> */}
+       
         <About/>
       </div>
       <div ref={services} className="services">
-        {/* <h3>Contact</h3> */}
+        
         <Services/>
       </div>
       <div ref={projects} className="projects">
