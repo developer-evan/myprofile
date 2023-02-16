@@ -49,25 +49,11 @@ function App() {
               Projects
             </li>
             <li className="link" id="menu"><FaBars className="menu"/></li>
-            {/* <li onClick={() => scrollToSection(blog)} className="link">
-              Blog
-            </li>
-            <li onClick={() => scrollToSection(contact)} className="link">
-              Contact
-            </li> */}
-            {/* <li className="menu"><FaBars/></li> */}
-          </ul>
+            </ul>
 
-          {/* <div className="button"> */}
+          
           <button className="button"><FaSms /> Let's Chat</button>
-          {/* <a href="#home"><FaFacebook /></a>
-            <a href="#home"><FaInstagram /></a>
-            <a href="#home"><FaTwitter /></a> */}
-          {/* <FaInstagram/>
-      <FaTwitter/> */}
-          {/* </div> */}
-
-        </div>
+             </div>
         <div ref={home}>
           <HomePage />
         </div>
@@ -83,12 +69,7 @@ function App() {
       <div ref={projects} className="projects">
         {/* <h3>Blog</h3> */}
         <Projects/>
-        
-      {/* <Fire/>/ */}
       </div>
-      {/* <div ref={contact} className="contact">
-      <Contact/>
-      </div> */}
       <Footer />
     </div>
   );
