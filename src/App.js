@@ -58,11 +58,11 @@ function App() {
           <HomePage />
         </div>
       </div>
-      <div ref={about} className="about">
-       
+      <div ref={about} className="about">       
         <About/>
       </div>
       <div ref={services} className="services">
+
         
         <Services/>
       </div>
